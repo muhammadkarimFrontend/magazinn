@@ -199,25 +199,133 @@ body {
 }
 
 .main-info {
+	padding-top: 6rem;
+	padding-bottom: 10.2rem;
 }
-.container {
-}
+
 .main-info__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
 }
+
 .main-info__item {
+	max-width: 646px;
+	width: 50%;
+	box-shadow: 0px 4px 12px 0px #0000000d;
+	background-color: var(--white-color);
+	border-radius: 4rem;
+	padding: 4rem;
 }
-.main-info__item-top {
-}
-.main-info__item-img {
-}
-.main-info__item-title {
-}
-.main-info__item-text {
-}
-.main-info__item-btn {
-}
+
 .main-info__item-mini {
+	max-width: 424px;
+	width: 100%;
+	background-color: var(--white-color);
+	border-radius: 4rem;
+	padding: 4rem;
 }
+
+.main-info__item-top {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1.4rem;
+}
+
+.main-info__item-img {
+	width: 52px;
+	height: 52px;
+	padding: 0.4rem 0.4rem;
+	border-radius: 0.4rem;
+	background-color: #fdead4;
+}
+
+.main-info__item-imga {
+	width: 52px;
+	height: 52px;
+	padding: 0.4rem 0.4rem;
+	border-radius: 0.4rem;
+	background-color: #eecffc;
+}
+
+.main-info__item-imgl {
+	width: 52px;
+	height: 52px;
+	padding: 0.4rem 0.4rem;
+	border-radius: 0.4rem;
+	background-color: #dcfcfa;
+}
+
+.main-info__item-imgz {
+	width: 52px;
+	height: 52px;
+	padding: 0.4rem 0.4rem;
+	border-radius: 0.4rem;
+	background-color: #fbdcdc;
+}
+
+.main-info__item-imgb {
+	width: 52px;
+	height: 52px;
+	padding: 0.4rem 0.4rem;
+	border-radius: 0.4rem;
+	background-color: #d8dcfc;
+}
+
+.main-info__item-imgd {
+	width: 52px;
+	height: 52px;
+	padding: 0.4rem 0.4rem;
+	border-radius: 0.4rem;
+	background-color: #dafce3;
+}
+
+.main-info__item-imgr {
+	width: 52px;
+	height: 52px;
+	padding: 0.4rem 0.4rem;
+	border-radius: 0.4rem;
+	background-color: #fcfdd7;
+}
+
+.main-info__item-title {
+	font-weight: 600;
+	font-size: 2.4rem;
+	line-height: 1.4;
+	color: var(--gray-dark-color);
+}
+
+.main-info__item-text {
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 1.4;
+	margin-bottom: 3.2rem;
+	color: #6f7973;
+}
+
+.main-info__item-btn {
+	font-weight: 600;
+	font-size: 1.6rem;
+	line-height: 1.4;
+	padding: 1rem 3rem;
+	gap: 1rem;
+	border: 1px solid #43a548;
+	border-radius: 2.1rem;
+	background-color: transparent;
+	cursor: pointer;
+	color: #43a548;
+}
+
+.main-info__item-btn:hover {
+	background: linear-gradient(100.98deg, #43a548 -4.14%, #52e259 108.69%);
+	color: #ffffff;
+}
+
+.main-info__item-btn:active {
+	opacity: 0.6;
+	transition: all 0.4s ease;
+}
+
 .main-info__ad {
 }
 
