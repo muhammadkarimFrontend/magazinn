@@ -720,6 +720,39 @@ body {
 		font-size: 1.2rem;
 		margin-bottom: 2rem;
 	}
+
+	.product {
+		padding-bottom: 6.4rem;
+	}
+
+	.product__title {
+		margin-bottom: 3rem;
+	}
+	.product__info-wrapper {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+
+	.product__inner {
+		max-width: 98%;
+		border-radius: 2rem;
+		padding: 2rem;
+	}
+
+	.product__inner:nth-child(2) {
+		margin-left: 0rem;
+		margin-top: 2rem;
+	}
+
+	.product__inner-title {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.product__text {
+		font-size: 1.4rem;
+	}
 }
 
 @media screen and (max-width: 520px) {
